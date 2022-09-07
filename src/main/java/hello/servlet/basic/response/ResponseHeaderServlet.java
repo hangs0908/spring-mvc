@@ -22,7 +22,7 @@ public class ResponseHeaderServlet extends HttpServlet {
         response.setHeader("Cache-Control", "no-cache, no-store, must-revalidate");
         response.setHeader("Pragma","no-cache");
         response.setHeader("my-header","hello");
-
+  
         //[Header 편의 메소드]
         content(response);
         cookie(response);
